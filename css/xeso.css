@@ -1,0 +1,225 @@
+.header{
+    margin-bottom: -16px;
+    height: 120px;
+    background: white;
+    border: 3px solid #135eac;
+    margin-bottom: -15px;
+}
+.header img{
+    height: 120px;
+}
+.topnav{
+    height: 50px;
+    background: #135eac;
+    display: block;
+    margin-bottom: -17px;
+}
+.topnav li{
+    float: left;
+    list-style: none;
+}
+.topnav li a{
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 50px;
+    font-size: 21px;
+    color: white;
+    font-weight: bold;
+    font-variant-ligatures: normal;
+}
+.topnav li a:hover{
+    color: black;
+    display: flex;
+    background-color: white;
+}
+.topnav .search{
+    float: right;
+    margin-right: 20px;
+    line-height: 50px;
+}
+.topnav .search input{
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    border: none;
+}
+.topnav .search button{
+    padding: 5px;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+    border: none;
+    margin-left: 0px;
+    background: rgb(236, 228, 228);
+    color: rgb(255, 255, 255);
+    background: rgb(212, 26, 26);
+}
+.topnav .search button:hover{
+    background: rgb(94, 43, 43);
+}
+.topnav .right-head{
+    float: right;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.right-head a{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.topnav .right-head a:hover{
+    color: rgb(230, 181, 59);
+}
+.topnav li{
+    position: relative;
+    z-index: 2;
+}
+.topnav .sub-menu{
+    position: absolute;
+    background:#4672a0;
+    padding: 15px 5px;
+    width: 150px;
+    height: 160px;
+    display: none;
+}
+.topnav .sub-menu{
+    position: absolute;
+    background:#4672a0;
+    padding: 15px 5px;
+    width: 150px;
+    height: 160px;
+    display: none;
+}
+.topnav li:hover .sub-menu{
+    display: block;
+}
+.topnav .sub-menu a{
+    padding: 10px 25px;
+    border-bottom: 2px solid rgb(240, 221, 221);
+}
+.topnav .sub-menu a:hover{
+    background: none;
+    color: rgb(238, 156, 4);
+}
+.slider{
+    margin-bottom: -17px;
+}
+.righthead a{
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 20px;
+    color: rgb(230, 181, 59);
+    float: right;
+    position: relative;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.righthead a:hover{
+    color: wheat;
+}
+.article{
+    position:relative;
+    overflow: hidden;
+    display: block;
+    z-index: 1;
+    background: rgb(205, 219, 228);
+    margin-bottom: 2px;
+}
+.article h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 0;
+    font-weight: bold;
+    color: rgba(30, 43, 117, 0.877);
+}
+.article .newlist .newitem{
+    width: 28%;
+    float: left;
+    padding: 10px;
+    border: 2px solid rgb(175, 15, 15);
+    margin: 20px;
+    margin-left: 22px; 
+    background-color: white;
+    border-radius: 10px;
+}
+.article .newlist .newitem h4{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(230, 141, 26);
+}
+.article .newlist .newitem .content{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.aside{
+    float: right;
+}
+.newlist img{
+    width: 100%;
+    height: 250px;
+    border-radius: 4px;
+    display: block;
+}
+
+.newitem img {
+    margin-bottom: 30px;
+    transition:  0.3s ease-out;
+    position: relative;	
+}
+.newitem:hover img {
+	transform: scale(1.2, 1.2);
+}
+.footer{
+    bottom: 0px;
+    width: 100%;
+    background: rgb(41, 39, 160);
+}
+.container{
+    display: flex;
+    font-size: 18px;
+}
+.container .box{
+    padding: 10px 20px;
+    flex-basis: 50%;
+}
+.box h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+.box .content{
+    margin: 25px 0 0 0;
+    color: white;
+}
+.left .content .social{
+    margin: 25px 0 0 0;
+}
+.left .content .social a{
+    padding: 3px;
+}
+.left .content .social a span{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 30px;
+    background: rgb(41, 39, 160);
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.left .content .social a span:hover{
+    background: white;  
+}
+.fa-facebook{color: blue;}
+.fa-youtube{color: red;}
+.fa-instagram{color: orangered;}
+.fa-github{color: black;}
+.fa-phone-alt{color: rgb(58, 182, 58);}
+.fa-paper-plane{color: rgb(102, 102, 233);}
+.fa-envelope{color: rgb(214, 56, 28);}
+.fa-map-marked-alt{color: rgb(212, 26, 26);}
+.container h2:hover{
+    color: rgb(223, 191, 11);
+    transition: 0.3s;
+}

@@ -1,0 +1,67 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: rgb(124, 255, 141);
+ }
+h3{
+    color:rgb(230, 136, 15) ;
+    font-weight: bold;
+    font-size: 30px;
+}
+label{
+    margin-left: 350px;
+    float: left;
+    color:rgb(61, 61, 238) ;
+    font-weight: bold;
+}
+.formmm{
+    text-align: center;
+}
+.user{
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    resize: vertical;
+    padding:15px;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.2);
+}
+button {
+    background-color: #18bb1d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+  }
+button:hover {
+    opacity:1;
+    background-color: black;
+}
+.sex{
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border: none;
+    width: 150px;
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+    color:rgb(61, 61, 238) ;
+}
+.time{
+    height: 30px;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.2);
+}
+.time1{
+    height: 28px;
+    width: 50px;
+    text-align: center;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.2);
+}

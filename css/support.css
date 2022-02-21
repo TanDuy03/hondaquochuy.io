@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(124, 255, 141);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.topnav{
+    height: 50px;
+    background: #135eac;
+    display: block;
+}
+.topnav li{
+    float: left;
+    list-style: none;
+}
+.topnav li a{
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 50px;
+    font-size: 21px;
+    color: white;
+    font-weight: bold;
+    font-variant-ligatures: normal;
+}
+.topnav li a:hover{
+    color: black;
+    display: flex;
+    background-color: white;
+}
+.topnav .search{
+    float: right;
+    margin-right: 20px;
+    line-height: 50px;
+}
+.topnav .search input{
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    border: none;
+}
+.topnav .search button{
+    padding: 5px;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+    border: none;
+    margin-left: 0px;
+    background: rgb(236, 228, 228);
+    color: rgb(255, 255, 255);
+    background: rgb(212, 26, 26);
+}
+.topnav .search button:hover{
+    background: rgb(94, 43, 43);
+}
+.righthead a{
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 20px;
+    color: rgb(230, 181, 59);
+    float: right;
+    position: relative;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.righthead a:hover{
+    color: wheat;
+}
+.topnav li{
+    position: relative;
+}
+.topnav .sub-menu{
+    position: absolute;
+    background:#4672a0;
+    padding: 15px 5px;
+    width: 150px;
+    height: 160px;
+    display: none;
+}
+.topnav li:hover .sub-menu{
+    display: block;
+}
+.topnav .sub-menu a{
+    padding: 10px 25px;
+    border-bottom: 2px solid rgb(240, 221, 221);
+}
+.topnav .sub-menu a:hover{
+    background: none;
+    color: rgb(238, 156, 4);
+}
+body {
+    background:rgb(30,30,40);
+    }
+    .form {
+    text-align: center;
+    margin-top: 40px;
+    max-width:420px;
+    margin:50px auto;
+    }
+    #form1 input[type=text] {
+    color:white;
+    font-family: sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #CC6666;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+    }
+    #form1 #fcontent {
+    height: 100px;
+    }
+    #form1 input[type="submit"]:hover {
+    background:#CC4949;
+    }
+    #form1 button{
+        color:white;
+        font-family: sans-serif;
+        font-weight:500;
+        font-size: 18px;
+        border-radius: 5px;
+        line-height: 22px;
+        background-color: #CC6666;
+        border:2px solid #CC6666;
+        transition: all 0.3s;
+        padding: 13px;
+        margin-bottom: 15px;
+        width:100%;
+        box-sizing: border-box;
+        outline:0;
+    }
+    #form1 a{
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        font-weight: bold;
+    }

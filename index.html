@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Đại lý xe máy</title>
+    <link rel="stylesheet" href="css/style_menu.css">
+    <link rel="stylesheet" href="font/fontawesome-free-5.15.4-web/css/all.min.css">
+</head>
+<body> 
+    <div class="header">
+        <marquee>Liên hệ với chúng tôi để được những ưu đãi hấp dẫn.</marquee> 
+        <marquee class="chay" align="center" direction= "left" height="200" scrollamount="7" width="100%" behavior="alternate"> Hotline: 0369469525 - Thôn 1, Lộc Ngãi, Bảo Lâm, Lâm Đồng</marquee>
+    </div>
+    <nav>
+        <div class="topnav">
+            <ul>
+                <li><a href="index.html" class="fas fa-home"> Trang chủ</a></li>
+                <li>
+                    <a href="#1">Hãng xe</a>
+                    <ul class="sub-menu">
+                        <li><a href="yamaha.html">Yamaha</a></li>
+                        <li><a href="suzuki.html">Suzuki</a></li>
+                        <li><a href="honda.html">Honda</a></li>
+                    </ul>
+                </li>
+                <li><a href="xeso.html">Xe số</a></li>
+                <li><a href="tayga.html">Tay ga</a></li>
+                <li><a href="tuvan.html">Tư vấn</a></li>
+                <div class="search">
+                    <input type="search" placeholder="Tìm kiếm tại đây">
+                    <button>Tìm kiếm</button>
+                </div>
+                <div class="righthead">
+                    <a href="dangki.html">Đăng kí</a>
+                    <a href="dangnhap.html">Đăng nhập</a>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <div id="slider">
+        <img class="slide" id="img" onclick="changeImage()" src="image/banner7.jpg" width="1333px" height="400px"> 
+    </div>
+    <div class="aboutnav">
+        <marquee class="introduce">Chúc quý khách thượng lộ bình an</marquee>
+        <img src="image/giphy.gif" width="260" height="220">
+        <video src="image/gioithieuhonda (1).mp4" controls width="800" height="220"></video>
+        <img src="image/giphy4.gif" width="265" height="220">
+    </div>
+    <script>
+        var index = 1;
+        changeImage = function (){
+            var imgs = ["image/banner2.png","image/banner6.webp","image/banner3.jpg","image/banner4.jpg","image/banner5.jpg"];
+            document.getElementById('img').src = imgs[index];
+            index++;
+            if(index == 5){
+                index = 1;
+            }
+        }
+        setInterval(changeImage,3000);
+    </script>
+    <div class="article">
+        <h3>XE SỐ</h3>
+        <div class="newlist">
+            <div class="newitem">
+                <h4>Dream</h4>
+                <img src="image/hd1.jpg">
+                <div class="content">
+                    🏁 Trung Quốc<br>                   
+                    🎰 1000km<br>
+                    Dung tích: 110cc<br>
+                </div>              
+            </div>
+            <div class="newitem">
+                <h4>Wave Alpha</h4>
+                <img src="image/wave.jpg">
+                <div class="content">
+                    🏁 Việt Nam<br>                   
+                    🎰 1000km<br>
+                    Dung tích: 110cc<br>
+                </div>              
+            </div>
+            <div class="newitem">
+                <h4>Wave RSX Fi</h4>
+                <img src="image/wave rsx.jpg">
+                <div class="content">
+                    🏁 Việt Nam<br>                   
+                    🎰 0km<br>
+                    Dung tích: 110cc<br>
+                </div>              
+            </div>
+            <div class="newitem">
+                <h4>Future</h4>
+                <img src="image/future.jpg">
+                <div class="content">
+                    🏁Việt Nam<br>                   
+                    🎰 1000km<br>
+                    Dung tích: 125cc<br>
+                </div>              
+            </div>
+            <div class="newitem">
+                <h4>Sirius</h4>
+                <img src="image/sirius.png">
+                <div class="content">
+                    🏁 Việt Nam<br>
+                    🎰 10030km<br>
+                    Dung tích: 110cc<br>
+                </div>              
+            </div>
+            <div class="newitem">
+                <h4>Yaz 125zr</h4>
+                <img src="image/yazz.jpg">
+                <div class="content">
+                    🏁 Malaysia<br>
+                    🎰 2000km<br>
+                    Dung tích: 110cc<br>
+                </div>              
+            </div>
+            <div class="newitem">
+                <h4>Wave Blade</h4>
+                <img src="image/blade.jpg">
+                <div class="content">
+                    🏁 Việt Nam<br>                   
+                    🎰 10km<br>
+                    Dung tích: 110cc<br>
+                </div>              
+            </div>
+            <div class="newitem">
+                <h4>Exciter 155VVA</h4>
+                <img src="image/exx.jpg">
+                <div class="content">
+                    🏁 Việt Nam<br>
+                    🎰 2km<br>
+                    Dung tích: 150cc<br>
+                </div>              
+            </div>
+        </div>
+    </div>
+    <div class="article">
+        <h3>XE TAY GA</h3>
+        <div class="newlist">
+            <div class="newitem">
+                <h4>VARIO</h4>
+                <img src="image/vario.jpg">
+                <div class="content">
+                    🏁 Việt Nam<br>                  
+                    💷 62,000,000<br>
+                    Dung tích:150cc<br>
+                </div>              
+            </div>
+            <div class="newitem">
+                <h4>Nouvo</h4>
+                <img src="image/yamaha-nouvo-fi-rc.png">
+                <div class="content">
+                    🏁 Việt Nam<br>                  
+                    💷 32,000,000<br>
+                    Dung tích:125cc<br>
+                </div>              
+            </div>
+            <div class="newitem">
+                <h4>Vision</h4>
+                <img src="image/vision.jpg">
+                <div class="content">
+                    🏁 Việt Nam<br>                  
+                    💷 30,000,000<br>
+                    Dung tích:150cc<br>
+                </div>              
+            </div>
+            <div class="newitem">
+                <h4>Honda Lead</h4>
+                <img src="image/lead.jpg">
+                <div class="content">
+                    🏁 Việt Nam<br>                  
+                    💷 37,000,000<br>
+                    Dung tích:125cc<br>
+                </div>              
+            </div>
+            <div class="newitem">
+                <h4>Janus</h4>
+                <img src="image/janus.jpg">
+                <div class="content">
+                    🏁 Việt Nam<br>                  
+                    💷 28,000,000<br>
+                    Dung tích:125cc<br>
+                </div>              
+            </div>
+            <div class="newitem">
+                <h4>SH 150</h4>
+                <img src="image/sh.webp">
+                <div class="content">
+                    🏁 Việt Nam<br>                    
+                    💷 120,000,000<br>
+                    Dung tích: 150cc<br>
+                </div>              
+            </div>
+            <div class="newitem">
+                <h4>Grande</h4>
+                <img src="image/cc.jpg">
+                <div class="content">
+                    🏁 Việt Nam<br>                   
+                    💷 45,000,000<br>
+                    Dung tích: 110cc<br>
+                </div>              
+            </div>
+            <div class="newitem">
+                <h4>Air Black</h4>
+                <img src="image/ab.jpg">
+                <div class="content">
+                    🏁 Việt Nam<br>                   
+                    💷 48,000,000<br>
+                    Dung tích: 125cc<br>
+                </div>              
+            </div>
+        </div>
+    </div>
+    <div class="article">
+        <h3>MẪU XE KHÁC</h3>
+        <div class="newlist">
+            <div class="newitem">
+                <h4>Xipo</h4>
+                <img src="image/xipo.jpg">
+                <div class="content">
+                    🏁 Việt Nam<br>                   
+                    💷 226,000,000<br>                   
+                    🎰 3009km<br>
+                    Dung tích: 120cc
+                </div>              
+            </div>
+            <div class="newitem">
+                <h4>Suzuki Axelo</h4>
+                <img src="image/imager_188.jpg">
+                <div class="content">
+                    🏁 Việt Nam<br>                    
+                    💷 32,000,000<br>                   
+                    🎰 Xe mới<br>
+                    Dung tích: 150cc
+                </div>              
+            </div>
+            <div class="newitem">
+                <h4>NVX</h4>
+                <img src="image/nvx.jpg">
+                <div class="content">
+                    🏁 Việt Nam<br>                    
+                    💷 42,000,000<br>                   
+                    🎰 Xe mới<br>
+                    Dung tích: 125cc
+                </div>              
+            </div>
+            <div class="newitem">
+                <h4>Nova</h4>
+                <img src="image/nova.jpg">
+                <div class="content">
+                    🏁 Indonesia<br>                    
+                    💷 312,000,000<br>                   
+                    🎰 Xe mới<br>
+                    Dung tích: 110cc
+                </div>              
+            </div>
+            <div class="newitem">
+                <h4>Suzuki Impulse</h4>
+                <img src="image/impulse.jpg">
+                <div class="content">
+                    🏁 Việt Nam<br>                    
+                    💷 30,000,000<br>                   
+                    🎰 Xe mới<br>
+                    Dung tích: 125cc
+                </div>              
+            </div> 
+            <div class="newitem">
+                <h4>Sonic</h4>
+                <img src="image/sonic.jpg">
+                <div class="content">
+                    🏁 Việt Nam<br>                   
+                    💷 58,000,000<br>                   
+                    🎰 Xe mới<br>
+                    Dung tích: 150cc
+                </div>              
+            </div>
+            <div class="newitem">
+                <h4>SuperCub</h4>
+                <img src="image/cubb.jpg">
+                <div class="content">
+                    🏁 Việt Nam<br>                   
+                    💷 120,000,000<br>                    
+                    🎰 Xe mới<br>
+                    Dung tích: 150cc
+                </div>              
+            </div>
+            <div class="newitem">
+                <h4>Raider</h4>
+                <img src="image/raider.png">
+                <div class="content">
+                    🏁 Việt Nam<br>                    
+                    💷 55,000,000<br>                   
+                    🎰 Xe mới<br>
+                    Dung tích: 150cc
+                </div>              
+            </div>
+        </div>
+    </div>
+    <div style="clear: both;"></div>
+    <marquee class="introduce">
+        <span class="fab fa-facebook"> Tan Duy </span>
+        <span> --- Website này thuộc sở hữu cá nhân --- </span>
+        <span class="fab fa-github"> TanDuy03 </span>
+    </marquee>
+    <div class="footer">
+        <div class="container">
+            <div class="left box">
+                <h2>Giới thiệu</h2>
+                <div class="content">
+                    <p>Sinh viên thiết kế Website tại FPT Polytechnic.</p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/Phelan2603/"><span class="fab fa-facebook"></span></a>
+                        <a href="https://github.com/TanDuy03"><span class="fab fa-github"></span></a>
+                        <a href="https://www.instagram.com/cuxe2612/"><span class="fab fa-instagram"></span></a>
+                        <a href="#"><span class="fab fa-youtube"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="center box">
+                <h2>Địa chỉ</h2>
+                <div class="content">
+                    <div class="place">
+                        <span class="fas fa-map-marked-alt"></span>
+                        <span>Thôn 1, xã Lộc Ngãi, Bảo Lâm, Lâm Đồng.</span>
+                    </div>
+                    <div class="phone">
+                        <span class="fas fa-phone-alt"></span>
+                        <span>0369469525</span>
+                    </div>
+                    <div class="mail">
+                        <span class="far fa-envelope"></span>
+                        <span>ng.tanduy261203@gmail.com</span>
+                    </div>
+                    <div class="chat">
+                        <span class="fas fa-paper-plane"></span>
+                        <span>Zalo: 0369469525</span>
+                    </div>
+                </div>
+            </div>
+            <div class="right box">
+                <h2>Nhận xét</h2>
+                <div class="content">
+                    <form action="#">
+                        <div class="email">
+                            <div class="text">Email</div>
+                            <input type="email" required>
+                        </div>
+                        <div class="mess">
+                            <div class="text">Phản hồi</div>
+                            <textarea rows="3" cols="30" required></textarea>
+                        </div>
+                        <div class="bton">
+                            <button type="submit">Gửi</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="mapp">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1643.104918116628!2d107.84652441986272!3d11.624482059520927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3173f1a8d6547aeb%3A0x8c55ac88a43f9415!2sHonda%20Qu%E1%BB%91c%20Huy!5e0!3m2!1svi!2s!4v1644934104462!5m2!1svi!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+    <script src="https://uhchat.net/code.php?f=a61fe5"></script>
+</div>
+</body>
+</html>
